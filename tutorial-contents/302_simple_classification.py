@@ -16,6 +16,7 @@ np.random.seed(1)
 
 # fake data
 n_data = np.ones((100, 2))
+# like: x0 = np.random.normal(2, 1, size=n_data.shape)
 x0 = np.random.normal(2*n_data, 1)      # class0 x shape=(100, 2)
 y0 = np.zeros(100)                      # class0 y shape=(100, 1)
 x1 = np.random.normal(-2*n_data, 1)     # class1 x shape=(100, 2)
